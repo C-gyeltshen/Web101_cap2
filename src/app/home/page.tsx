@@ -30,7 +30,7 @@ const Navbar = ({ handleSearch }) => (
                         <MenubarTrigger className="text-gray-300 hover:text-white">All Pokemon</MenubarTrigger>
                         <MenubarContent>
                             <MenubarItem>
-                                <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">All Pokemon</a>
+                                <a href="/allPokemon" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">All Pokemon</a>
                             </MenubarItem>
                         </MenubarContent>
                     </MenubarMenu>
