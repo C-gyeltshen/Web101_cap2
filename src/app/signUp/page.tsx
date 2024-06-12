@@ -26,7 +26,7 @@ export default function SignUp() {
     const router = useRouter();
 
     const handleSignUpClick = () => {
-        router.push('http://localhost:3000/signUp'); // Replace '/sign-up' with the actual route you want to redirect to
+        router.push('/login'); // Replace '/sign-up' with the actual route you want to redirect to
     };
 
     return (
