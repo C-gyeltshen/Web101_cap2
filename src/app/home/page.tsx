@@ -1,4 +1,4 @@
-"use client";
+    "use client";
 
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
@@ -30,23 +30,15 @@ const Navbar = ({ handleSearch }) => (
                         <MenubarTrigger className="text-gray-300 hover:text-white">All Pokemon</MenubarTrigger>
                         <MenubarContent>
                             <MenubarItem>
-                                <a href="/allPokemon" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">All Pokemon</a>
+                                <a href="/all" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">All Pokemon</a>
                             </MenubarItem>
                         </MenubarContent>
                     </MenubarMenu>
                     <MenubarMenu>
-                        <MenubarTrigger className="text-gray-300 hover:text-white">Seen</MenubarTrigger>
+                        <MenubarTrigger className="text-gray-300 hover:text-white">Caught</MenubarTrigger>
                         <MenubarContent>
                             <MenubarItem>
-                                <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Seen</a>
-                            </MenubarItem>
-                        </MenubarContent>
-                    </MenubarMenu>
-                    <MenubarMenu>
-                        <MenubarTrigger className="text-gray-300 hover:text-white">Favourite</MenubarTrigger>
-                        <MenubarContent>
-                            <MenubarItem>
-                                <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Favourite</a>
+                                <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Caught</a>
                             </MenubarItem>
                         </MenubarContent>
                     </MenubarMenu>

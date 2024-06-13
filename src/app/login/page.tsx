@@ -1,10 +1,7 @@
-import { Button } from "@/components/ui/button"
-
-
 export default function LoginPage () {
     return(
         <div className="w-screen h-screen ">
-            <div className="flex flex-col m-auto my-40 justify-center items-center w-60 h-64 bg-zinc-500 rounded-md">
+            <div className="flex flex-col	justify-center	items-center	">
                 <div className="welcome">
                     <h1 className="font-serif font-bold	text-4xl">Welcome</h1>
                 </div>
@@ -18,7 +15,7 @@ export default function LoginPage () {
                     <input name="password" type="password" placeholder="Password" className="mb-2 p-1 border rounded" />
                 </div>
                 <div className="login ">
-                    <Button type="submit" className=" text-white p-2 rounded">Login</Button>
+                    <button type="submit" className="bg-blue-500 text-white p-2 rounded">Login</button>
                 </div>
             </div>
         </div>
