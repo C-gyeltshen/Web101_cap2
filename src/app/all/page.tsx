@@ -1,9 +1,9 @@
-
 "use client";
 
 import React, { useEffect, useState, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import { Button } from "@/components/ui/button";
+import usePokemonStore from '../../store/pokemonStore'; 
 import {
     Menubar,
     MenubarContent,
@@ -60,8 +60,10 @@ const Navbar = () => {
 };
 
 const PokemonCard = ({ name, types, image }) => {
+    const addCaughtPokemon = usePokemonStore(state => state.addCaughtPokemon);
+
     const handleCatch = () => {
-        // Handle the logic for catching the Pokemon
+        addCaughtPokemon({ name, types, image });
         alert(`You caught ${name}!`);
     };
 
