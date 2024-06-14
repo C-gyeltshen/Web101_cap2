@@ -1,6 +1,7 @@
 "use client";
-import React from 'react';
 import Link from 'next/link';
+import React from 'react';
+
 import { Menubar, MenubarContent, MenubarItem, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar";
 import usePokemonStore from '../../store/pokemonStore';
 
